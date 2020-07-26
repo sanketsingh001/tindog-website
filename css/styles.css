@@ -9,7 +9,7 @@
 .head1 {
     font-family: 'Montserrat';
     font-weight: 900;
-    font-size  : 3rem;
+    font-size  : 3.5rem;
     line-height: 1.5;
     color      : #EAF6F6;
     margin-top : 2rem;
@@ -20,7 +20,7 @@
 .container-fluid {
     padding: 3% 15%;
 }
-
+ /* navigation bar changes */
 nav {
     font-family: 'Ubuntu', sans-serif;
     margin-bottom: 4.5rem;
@@ -45,4 +45,47 @@ nav {
 }
 .Download-button{
     margin:5% 3% 5% 0;
+}
+
+/* title image */
+.iphone{
+    width: 60%;
+    transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+}
+
+i:hover{
+    color: #ff4c68;
+}
+
+
+/* features section */
+
+#features{
+    padding:7% 10%;
+    margin: 0.8rem;
+}
+
+.feature-box{
+    text-align: center;
+}
+
+.feature-image{
+    color: #ef8172;
+  
+  margin-bottom: 1rem;
+}
+
+.feturehead{
+   
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+#features p{
+    color: #8f8f8f;
+   
 }
