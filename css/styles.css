@@ -89,3 +89,36 @@ i:hover{
     color: #8f8f8f;
    
 }
+
+/* testimonial section */
+#testimonials{
+    padding:7% 15%;
+    text-align:center;
+    background-color: #ef8172;
+    color: #ffffff;
+}
+#testimonials h2{
+    font-family: 'Montserrat' ;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+    margin: 20px;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+#press img{
+    width: 15%;
+    margin:20px 20px 50px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
