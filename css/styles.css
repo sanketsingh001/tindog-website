@@ -18,7 +18,7 @@
 
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
  /* navigation bar changes */
 nav {
@@ -55,6 +55,9 @@ nav {
     -moz-transform: rotate(25deg);
     -ms-transform: rotate(25deg);
     -o-transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+  
 }
 
 i:hover{
@@ -66,7 +69,10 @@ i:hover{
 
 #features{
     padding:7% 10%;
-    margin: 0.8rem;
+    
+    background-color: #ffffff;
+    position: relative;
+    
 }
 
 .feature-box{
@@ -130,4 +136,43 @@ i:hover{
     background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
+}
+
+/* 
+pricing section */
+
+#pricing h2{
+    font-family: 'Montserrat' ;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* giving responsiveness susing media queries */
+
+@media (max-width:1028px){
+
+.iphone{
+    position:static;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+#title{
+    text-align: center;
+}
+
+
 }
